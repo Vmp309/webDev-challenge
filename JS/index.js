@@ -1,4 +1,4 @@
-import { eonet_request, apod_request, exo_request } from ".api";
+import { eonet_request, apod_request, exo_request } from "./api.js";
 
 let eonet_button = document.getElementById("eonet")
 let apod_button = document.getElementById("apod")
