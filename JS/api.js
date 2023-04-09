@@ -1,11 +1,12 @@
 import { apod_url, eonet_url, exo_url, NASA_API_KEY } from "tokens.js"
 
-const count = "1"
+//const count = "1"
 const date = new Date()
 let day = date.getDate();
 let month = date.getMonth() + 1;
 let year = date.getFullYear();
 const today = `${year}-${month}-${day}`
+const table = "q1_q16_koi"
 
 /*
 const eonet_request = new Request(
@@ -19,6 +20,7 @@ const eonet_request = new Request(
   .catch(error => console.log(error))
 )
 */
+
 const apod_request = new Request(
   fetch(`${apod_url}api_key=${NASA_API_KEY}%date=${today}`).then(response => {
     console.log(response)
