@@ -1,9 +1,9 @@
 # webDev-challenge
 The development of a page with the design described in the readme.md file
 
-  http://cdn.overmediacast.com/assets/imagem-de-fundp.png
-  http://cdn.overmediacast.com/assets/referencia-com-transicao.mp4
-  http://cdn.overmediacast.com/assets/imagem-de-referencia.png
+    http://cdn.overmediacast.com/assets/imagem-de-fundp.png
+    http://cdn.overmediacast.com/assets/referencia-com-transicao.mp4
+    http://cdn.overmediacast.com/assets/imagem-de-referencia.png
 
 Nasa api:
 

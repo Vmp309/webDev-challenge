@@ -80,4 +80,9 @@ h1{
 
 .button:hover{
   background-color: #99eeff;
+  color: black;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
 }
